@@ -6,16 +6,14 @@
     /* outline: 1px solid red; */
 }
 
-.header-container{
-    background-color: #4C585B;
-    height: 60px;
-    padding-right: 80px;
-}
-
 .screen-link{
     text-decoration: none;
     color: #F4EDD3;
     margin-left: 20px;
+}
+
+.screen-link:active{
+    color: gray;
 }
 
 .screen-link:hover{
@@ -27,7 +25,8 @@
     background-color: #4C585B;
     margin: 0;
     padding: 0;
-    height: 600vh;
+    min-height: 80vh;
+    height: auto;
     overflow: hidden;
 }
 
@@ -50,7 +49,7 @@
 .line{
     max-width: 75%;
     margin-left: 10px;
-    border: 3px solid #F4EDD3;
+    border: 1px solid #F4EDD3;
 }
 
 .heading4{
@@ -74,8 +73,8 @@
 }
 
 .img-display{
-    border-radius: 20px;
-    margin-left: 20px;
+    border-radius: 40px;
+    padding: 20px;
 }
 
 .paragraph{
@@ -127,4 +126,8 @@
     height: 200px;
     border-radius: 10px;
     padding: 10px;
+}
+
+li{
+    text-align: justify;
 }

@@ -9,12 +9,22 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-    <div class="col-lg-12 col-sm-12 header-container d-flex justify-content-end align-items-center">
-        <a class="screen-link" href="screen/contactUs.html">Contact Us</a>
-        <a class="screen-link" href="screen/aboutUs.html">About Us</a>
-    </div>
+    <div class="collapse" id="navbarToggleExternalContent">
+        <div class="p-4 d-flex justify-content-center align-items-center" style="background-color: #4C585B;">
+            <a class="screen-link">Main Page</a>
+            <a class="screen-link" href="screen/contactUs.html">Contact Us</a>
+            <a class="screen-link" href="screen/aboutUs.html">About Us</a>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark" style="background-color: #4C585B;">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
 
-    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="images/topImage1.jpg" class="d-block w-100" alt="...">
@@ -29,15 +39,15 @@
             <img src="images/topImage4.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-    </div>
+      </div>
 
     <div class="body-main-container">
         <h3 class="heading3">Catalogue</h3>
@@ -75,24 +85,28 @@
         <h4 class="heading4">Seat</h4>
         <div class="row">
             <div class="col-lg-2 col-sm-3">
-                <img src="images/seat1.png" class="img-display" alt="">
+                <img src="images/seat1.png" class="img-display w-100" alt="">
                 <p class="paragraph">Sofa</p>
             </div>
             <div class="col-lg-2 col-sm-3">
-                <img src="images/seat2.png" class="img-display" alt="">
+                <img src="images/seat2.png" class="img-display w-100" alt="">
                 <p class="paragraph">Gaming Chair</p>
             </div>
             <div class="col-lg-2 col-sm-3">
-                <img src="images/seat3.png" class="img-display" alt="">
+                <img src="images/seat3.png" class="img-display w-100" alt="">
                 <p class="paragraph">Elegant Chair</p>
             </div>
             <div class="col-lg-2 col-sm-3">
-                <img src="images/seat4.png" class="img-display" alt="">
+                <img src="images/seat4.png" class="img-display w-100" alt="">
                 <p class="paragraph">Basic Chair</p>
             </div>
             <div class="col-lg-2 col-sm-3">
-                <img src="images/seat5.png" class="img-display" alt="">
+                <img src="images/seat5.png" class="img-display w-100" alt="">
                 <p class="paragraph">Office Chair</p>
+            </div>
+            <div class="col-lg-2 col-sm-3">
+                <img src="images/seat6.png" class="img-display w-100" alt="">
+                <p class="paragraph">Luxury Sofa</p>
             </div>
         </div>
 
@@ -100,24 +114,28 @@
         <h4 class="heading4">Table</h4>
         <div class="row">
             <div class="col-lg-2 col-sm-3">
-                <img src="images/table1.png" class="img-display" alt="">
+                <img src="images/table1.png" class="img-display w-100" alt="">
                 <p class="paragraph">Problaby Table</p>
             </div>
             <div class="col-lg-2 col-sm-3">
-                <img src="images/table2.png" class="img-display" alt="">
+                <img src="images/table2.png" class="img-display w-100" alt="">
                 <p class="paragraph">Elegant Table</p>
             </div>
             <div class="col-lg-2 col-sm-3">
-                <img src="images/table3.png" class="img-display" alt="">
+                <img src="images/table3.png" class="img-display w-100" alt="">
                 <p class="paragraph">Office Table</p>
             </div>
             <div class="col-lg-2 col-sm-3">
-                <img src="images/table4.png" class="img-display" alt="">
+                <img src="images/table4.png" class="img-display w-100" alt="">
                 <p class="paragraph">Basic Table</p>
             </div>
             <div class="col-lg-2 col-sm-3">
-                <img src="images/table5.png" class="img-display" alt="">
+                <img src="images/table5.png" class="img-display w-100" alt="">
                 <p class="paragraph">Pedestal</p>
+            </div>
+            <div class="col-lg-2 col-sm-3">
+                <img src="images/table6.png" class="img-display w-100" alt="">
+                <p class="paragraph">Basic Rounded Table</p>
             </div>
         </div>
 
@@ -125,15 +143,15 @@
         <h4 class="heading4">Decorations</h4>
         <div class="row">
             <div class="col-lg-2 col-sm-3">
-                <img src="images/deco1.png" class="img-display" alt="">
+                <img src="images/deco1.png" class="img-display w-100" alt="">
                 <p class="paragraph">Office Lamp</p>
             </div>
             <div class="col-lg-2 col-sm-3">
-                <img src="images/deco2.png" class="img-display" alt="">
+                <img src="images/deco2.png" class="img-display w-100" alt="">
                 <p class="paragraph">Disney Lamp</p>
             </div>
             <div class="col-lg-2 col-sm-3">
-                <img src="images/deco3.png" class="img-display" alt="">
+                <img src="images/deco3.png" class="img-display w-100" alt="">
                 <p class="paragraph">Basic Photo Frame</p>
             </div>
         </div>
@@ -142,12 +160,16 @@
         <h4 class="heading4">Etc</h4>
         <div class="row">
             <div class="col-lg-2 col-sm-3">
-                <img src="images/etc1.png" class="img-display" alt="">
+                <img src="images/etc1.png" class="img-display w-100" alt="">
                 <p class="paragraph">Basic Bed</p>
             </div>
             <div class="col-lg-2 col-sm-3">
-                <img src="images/etc2.png" class="img-display" alt="">
+                <img src="images/etc2.png" class="img-display w-100" alt="">
                 <p class="paragraph">Basic Cupboard</p>
+            </div>
+            <div class="col-lg-2 col-sm-3">
+                <img src="images/etc3.png" class="img-display w-100" alt="">
+                <p class="paragraph">Basic Small Cupboard</p>
             </div>
         </div>
     </div>
